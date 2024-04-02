@@ -15,6 +15,13 @@ namespace Task_2
             Console.WriteLine(motorBike.DisplayInfo());
             Console.WriteLine(boat.DisplayInfo());
             Console.WriteLine(plane.DisplayInfo());
+
+            Console.WriteLine();
+
+            VehicleHelper.Drive((Car)car);
+            VehicleHelper.Wheelie((MotorBike)motorBike);
+            VehicleHelper.Sail((Boat)boat);
+            VehicleHelper.Fly((Airplane)plane);
         }
     }
 }
